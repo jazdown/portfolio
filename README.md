@@ -1,6 +1,6 @@
 # Jaz Down
 
-I am a graphic designer that specializes in motion and print design. I have a passion for creativity, and am committed to excellent design.
+I am a curious graphic designer that specializes in motion and print design. I have a passion for creativity, and am committed to excellent design.
 
 ###[jazdown.ca](https://jazdown.ca)
 
