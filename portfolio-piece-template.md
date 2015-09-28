@@ -1,19 +1,14 @@
-name: Portfolio piece 1
-desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-banner: banner.jpg
+name: Portfolio Entry 1
+desc: This piece was created for a client that I know very well and have built a strong relationship with. It is designed to reflect the image of the company.
+banner: portfolio-banner.jpg
 images:
   - src: image-1.jpg
-    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    caption: This is the client research that was done before the conceptual phase.
+  - src: image-2.jpg
+    caption: Concepts begin to form together. 
   - src: image-1.jpg
-    caption: Aenean commodo ligula eget dolor. Aenean massa.
-  - src: image-1.jpg
-    caption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    caption: The final product.
 sketches:
   - sketch-1.jpg
   - sketch-2.jpg
-  - sketch-2.jpg
-tags:
-  - Web development
-  - HTML
-  - CSS
-  - Javascript
+  - sketch-3.jpg
