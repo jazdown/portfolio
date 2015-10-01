@@ -1,0 +1,83 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;  
+}
+
+body {
+
+}
+
+.banner {
+  position: relative;
+  height: 100vh;
+  background: url("http://placehold.it/1200x1125") no-repeat center top;
+  background-size: cover;
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner-items {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  z-index: 1;
+}
+
+.buttons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.facebook {
+  width: 100px;
+  height: 100px;
+  background-image: url("http://placehold.it/100x100");
+  display: inline-block;
+}
+
+.vimeo {
+  width: 100px;
+  height: 100px;
+  background-image: url("http://placehold.it/100x100");
+  display: inline-block;
+}
+
+.instagram {
+  width: 100px;
+  height: 100px;
+  background-image: url("http://placehold.it/100x100");
+  display: inline-block;
+}
+
+.behance {
+  width: 100px;
+  height: 100px;
+  background-image: url("http://placehold.it/100x100");
+  display: inline-block;
+}
