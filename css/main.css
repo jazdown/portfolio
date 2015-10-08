@@ -21,7 +21,6 @@ html {
 
 body {
   font-family: 'Oxygen', sans-serif;
-  xbackground-color: #185766;
   margin: 0;
 }
 
@@ -47,27 +46,31 @@ body {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  background-color: #0B8599;
+  background-color: #FFF;
 }
 
 .nav-item {
   text-decoration: none;
   margin-bottom: 1em;
   margin-top: 1.25em;
-  border: 2px solid white;
+  border: 2px solid #0B8599;
   font-size: 0.75rem;
   text-transform: uppercase;
   padding: 1rem 2rem;
   text-decoration: none; 
   display:inline-block;
   font-weight: lighter; 
-  color: #FFFFFF;
+  color: #0B8599;
   background-color: transparent; 
   letter-spacing: 1.5px;
 }
 
 .main {
   z-index: 1;
+}
+
+.title {
+  color: #4C4C4C;
 }
 
 .down-button-wrapper {
@@ -109,7 +112,7 @@ body {
   padding: 0;
   width: 90%;
   height: 8em;
-  background-image: url(../images/facebook.jpg);
+  background-image: url(../images/facebook.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline-block;
@@ -120,18 +123,7 @@ body {
   padding: 0;
   width: 90%;
   height: 8em;
-  background-image: url(../images/vimeo.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: inline-block;
-}
-
-.instagram {
-  margin: 0;
-  padding: 0;
-  width: 90%;
-  height: 8em;
-  background-image: url(../images/instagram.jpg);
+  background-image: url(../images/vimeo.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline-block;
@@ -140,10 +132,43 @@ body {
 .behance {
   margin: 0;
   padding: 0;
-  width: 90%;
+  width: 40px;
   height: 8em;
-  background-image: url(../images/behance.jpg);
+  background-image: url(../images/behance.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline-block;
+}
+
+@media only screen and (min-width: 38em){
+  
+  .social-media {
+    position: absolute;
+    width: 33%;
+    right: 10%;
+    bottom: 0;
+    height: 3.25em;
+  }
+  
+  .social-media h2 {
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-width: 60em){
+  
+  .nav-item {
+    left: 0;
+    margin: 1em;
+    width: 12em;
+  }
+  
+  .social-media {
+    top: 10px;
+    right: 1em;
+    width: 12%;
+    z-index: 1;
+    background-color: white;
+  }
 }
