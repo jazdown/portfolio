@@ -65,6 +65,14 @@ body {
   letter-spacing: 1.5px;
 }
 
+.placeholder-wordmark {
+  width: 4em;
+  left: calc( 50% - 2em );
+  position: absolute;
+  padding-top: 0.75em;
+}
+
+
 .main {
   z-index: 1;
 }
@@ -98,19 +106,21 @@ body {
 }
 
 .social-media {
+  position: absolute;
   margin: 0;
-  padding: 0;
-  height: 12em;
-  width: 100%;
+  padding: 4em;
+  height: 10em;
+  width: 300px;
+  left: calc(50% - 150px);
   list-style-type: none;
   overflow: hidden;
-  bottom: 0;
+  bottom: -10em;
 }
 
 .facebook {
   margin: 0;
-  padding: 0;
-  width: 90%;
+  padding: 2em;
+  width: 100%;
   height: 8em;
   background-image: url(../images/facebook.svg);
   background-repeat: no-repeat;
@@ -120,8 +130,8 @@ body {
 
 .vimeo {
   margin: 0;
-  padding: 0;
-  width: 90%;
+  padding: 2em;
+  width: 100%;
   height: 8em;
   background-image: url(../images/vimeo.svg);
   background-repeat: no-repeat;
@@ -131,8 +141,8 @@ body {
 
 .behance {
   margin: 0;
-  padding: 0;
-  width: 40px;
+  padding: 2em;
+  width: 100%;
   height: 8em;
   background-image: url(../images/behance.svg);
   background-repeat: no-repeat;
@@ -140,14 +150,86 @@ body {
   display: inline-block;
 }
 
+.port-title {
+  color: #0B8599;
+  text-transform: uppercase;
+  padding-top: 4.5em;
+  text-align: center;
+}
+
+.portfolio-intro {
+  left: 2em;
+  margin: 1em;
+  padding: 5%;
+  padding-top: 0;
+  text-align: center;
+}
+
+.port-box {
+  width: 100%;
+}
+
+.port-squares {
+  padding: 1em;
+  display: block;
+  text-align: center;
+}
+
+.port-text {
+  padding: 1rem;
+  display: block;
+  background-color: #333333;
+  color: #0B8599;
+  display: none;
+}
+
+x.port-squares:hover .port-text {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 99%;
+  text-align: center;
+  color: #dfb45c;
+  background-color: rgba(0, 0, 0, .65);
+  -webkit-animation: appear .25s ease-in-out forwards;
+  animation: appear .25s ease-in-out forwards;
+}
+
+.portrait-img {
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+
+@-webkit-keyframes appear {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
 @media only screen and (min-width: 38em){
   
   .social-media {
     position: absolute;
-    width: 33%;
+    width: 300px;
     right: 10%;
-    bottom: 0;
-    height: 3.25em;
+    bottom: -10em;
+    height: 10em;
   }
   
   .social-media h2 {
@@ -162,13 +244,5 @@ body {
     left: 0;
     margin: 1em;
     width: 12em;
-  }
-  
-  .social-media {
-    top: 10px;
-    right: 1em;
-    width: 12%;
-    z-index: 1;
-    background-color: white;
   }
 }
