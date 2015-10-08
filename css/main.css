@@ -70,27 +70,23 @@ body {
   z-index: 1;
 }
 
-.scroll-down {
-  position: absolute;
-  background-image: url("../images/down-arrow-01.svg");
-  background-repeat: no-repeat;
-  transition:all .2s ease-in-out;
-  bottom: 1em;
-  left: 42.5%;
-  width: 3em;
-  height: 3em;
-  cursor: pointer;
-  display: block;
-  -webkit-animation: scroll-down-moving .5s ease-in-out infinite alternate;
-  animation: scroll-down-moving .5s ease-in-out infinite alternate;
+.down-button-wrapper {
+  height: 2em;
+  width: 2em;
+  left: calc( 50% - 10px );
+  position: relative;
 }
 
-.scroll-down:hover {
-  background-image: url("../images/down-arrow-02.svg");
+.down-button {
+  background-image: url(../images/white-arrow.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2em;
+  position: absolute;
 }
 
 .lets-connect {
-  margin: 1em;
+  margin: 0.5em;
   text-align: center;
   text-transform: uppercase;
   color: #0B8599;
@@ -101,7 +97,7 @@ body {
 .social-media {
   margin: 0;
   padding: 0;
-  height: 10em;
+  height: 12em;
   width: 100%;
   list-style-type: none;
   overflow: hidden;
@@ -112,7 +108,7 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  height: 7em;
+  height: 8em;
   background-image: url(../images/facebook.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -123,7 +119,7 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  height: 7em;
+  height: 8em;
   background-image: url(../images/vimeo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -134,7 +130,7 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  height: 7em;
+  height: 8em;
   background-image: url(../images/instagram.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -145,7 +141,7 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  height: 7em;
+  height: 8em;
   background-image: url(../images/behance.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
