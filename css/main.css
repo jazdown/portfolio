@@ -15,11 +15,14 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;  
+  box-sizing: inherit; 
+
 }
 
 body {
   font-family: 'Oxygen', sans-serif;
+  xbackground-color: #185766;
+  margin: 0;
 }
 
 .banner {
@@ -44,13 +47,13 @@ body {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  background-color: #AD855C;
+  background-color: #0B8599;
 }
 
 .nav-item {
   text-decoration: none;
-  margin-bottom: 1rem;
-  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-top: 1.25em;
   border: 2px solid white;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -67,41 +70,84 @@ body {
   z-index: 1;
 }
 
-.buttons {
+.scroll-down {
+  position: absolute;
+  background-image: url("../images/down-arrow-01.svg");
+  background-repeat: no-repeat;
+  transition:all .2s ease-in-out;
+  bottom: 1em;
+  left: 42.5%;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  display: block;
+  -webkit-animation: scroll-down-moving .5s ease-in-out infinite alternate;
+  animation: scroll-down-moving .5s ease-in-out infinite alternate;
+}
+
+.scroll-down:hover {
+  background-image: url("../images/down-arrow-02.svg");
+}
+
+.lets-connect {
+  margin: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0B8599;
+  font-weight: lighter;
+  width: 100%
+}
+
+.social-media {
   margin: 0;
-  width: 100vw;
-  list-style-type: none;
   padding: 0;
+  height: 10em;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  bottom: 0;
 }
 
 .facebook {
-  width: auto;
-  height: 4em;
-  background-image: url("http://placehold.it/100x100");
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 7em;
+  background-image: url(../images/facebook.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
 }
 
 .vimeo {
-  width: auto;
-  height: 4em;
-  background-image: url("http://placehold.it/100x100");
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 7em;
+  background-image: url(../images/vimeo.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
 }
 
 .instagram {
-  width: auto;
-  height: 4em;
-  background-image: url("http://placehold.it/100x100");
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 7em;
+  background-image: url(../images/instagram.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
 }
 
 .behance {
-  width: auto;
-  height: 4em;
-  background-image: url("http://placehold.it/100x100");
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 7em;
+  background-image: url(../images/behance.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
 }
