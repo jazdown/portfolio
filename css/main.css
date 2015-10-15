@@ -265,6 +265,10 @@ footer {
   letter-spacing: 1.5px;
 }
 
+.whoami-info {
+  padding: 2em 1.5em 5em;
+}
+
 @-webkit-keyframes appear {
   0% {
       opacity: 0;
@@ -286,14 +290,6 @@ footer {
 }
 
 @media only screen and (min-width: 38em){
-  
-  .social-media {
-    position: absolute;
-    width: 300px;
-    right: 10%;
-    bottom: -10em;
-    height: 10em;
-  }
   
   .jaz {
     left: 1em;
