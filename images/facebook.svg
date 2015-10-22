@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="-511 297 200 200" style="enable-background:new -511 297 200 200;" xml:space="preserve">
+	 width="200px" height="200px" viewBox="-205 297 200 200" style="enable-background:new -205 297 200 200;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#0B8599;}
+	.st1{fill:none;}
 </style>
-<path class="st0" d="M-394.3,367c3.9,0,11.3,0,11.3,0v-17h-17.8c0,0-21.2,2.2-21.2,20.2c0,4,0,10.8,0,18.8h-16v18h16c0,24,0,50,0,50
-	h19.9c0,0-0.1-27-0.1-50h15.6l3.4-18h-19c0-7,0-11.1,0-12.4C-402.3,370.5-398.2,367-394.3,367z"/>
+<path class="st0" d="M-94.5,341.4c2.5,0,7.4,0,7.4,0v-11.1h-11.6c0,0-13.8,1.4-13.8,13.1c0,2.6,0,7,0,12.2h-10.4v11.7h10.4
+	c0,15.6,0,32.5,0,32.5h13c0,0-0.1-17.6-0.1-32.5h10.2l2.2-11.7h-12.4c0-4.6,0-7.2,0-8.1C-99.7,343.7-97,341.4-94.5,341.4z"/>
+<rect x="-205" y="297" class="st1" width="200" height="200"/>
 </svg>
