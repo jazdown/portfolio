@@ -1,0 +1,4 @@
+# DESIGNER
+
+Designer & Developer: Jasmine Down <heyjaz@jazdown.ca>
+Site: https://jazdown.ca
