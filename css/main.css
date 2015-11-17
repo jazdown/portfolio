@@ -46,7 +46,7 @@ body {
 
 .banner {
   height: 30em;
-  background: url("http://placehold.it/1200x1125") no-repeat center top;
+  background: url(../images/portrait-2.jpg) no-repeat center top;
   background-size: cover;
   padding: 0;
   overflow: hidden;
@@ -54,7 +54,6 @@ body {
 
 .banner-items {
   position: absolute;
-  text-align: center;
   top: 200px;
   width: 100%;
 }
@@ -93,10 +92,26 @@ body {
 }
 
 .jaz {
-  width: 4em;
-  left: calc( 50% - 2em );
-  position: absolute;
+  width: 8em;
   padding-top: 0.75em;
+  left: calc( 50% - 4em );
+  margin: auto;
+  position: absolute;
+  padding-top: 0;
+  color: #0B8599;
+  font-weight: bolder;
+  margin-top: 0.75em;
+}
+
+.banner-items p {
+  margin-left: 6em;
+  margin-top: 10em;
+  line-height: 20px;
+  padding-right: 1em;
+  max-width: 35em;
+  bottom: 1em;
+  color: #FFF;
+  text-align: right;
 }
 
 .main {
@@ -225,7 +240,6 @@ footer {
   display: block;
   list-style-type: none;
   text-align: center;
-  xbottom: -10em;
   width: 100%;
 }
 
@@ -243,7 +257,27 @@ footer {
 }
 
 .whoami-info {
+  position: relative;
   padding: 2em 1.5em 5em;
+  display: inline-block;
+  top: 6em;
+}
+
+.whoami-type {
+  padding: 5%;
+  color: #8C8C8C;
+}
+
+.portrait-wrapper {
+  width: 5em;
+  background-image: url(../images/portrait.jpg) center center;
+  background-size: contain;
+}
+
+.portrait-who {
+  margin-top: 8em;
+  width: 100%;
+  height: auto;
 }
 
 @-webkit-keyframes appear {
@@ -269,7 +303,8 @@ footer {
 @media only screen and (min-width: 38em){
   
   .jaz {
-    left: 1em;
+    left: -2em;
+    margin-left: 0;
   }
   
   .nav-item {
@@ -281,6 +316,15 @@ footer {
   
   .nav {
     text-align: right;
+  }
+  
+  .footer-nav {
+    text-align: right;
+    padding-right: 2em;
+  }
+  
+  .portrait-who {
+    margin-top: 3em;
   }
   
 }
