@@ -163,58 +163,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/*
-.social-media {
-  margin: 0;
-  padding: 0;
-  padding-top: 45em;
-  padding-bottom: 1em;
-  height: 7em;
-  width: 200px;
-  left: calc(50% - 100px);
-  list-style-type: none;
-  bottom: 0em;
-}
-
-.facebook {
-  position: relative;
-  bottom: 1em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 6em;
-  background-image: url(../images/facebook.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: inline-block;
-}
-
-.vimeo {
-  position: relative;
-  bottom: 1em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 6em;
-  background-image: url(../images/vimeo.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: inline-block;
-}
-
-.behance {
-  position: relative;
-  bottom: 1em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 6em;
-  background-image: url(../images/behance.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: inline-block;
-}*/
-
 .port-title {
   color: #0B8599;
   text-transform: uppercase;
@@ -369,7 +317,7 @@ footer {
   
   .soc-med-icons {
     left: 0;
-    bottom: 4em;
+    margin-bottom: 6em;
   }
   
   .nav-item {
@@ -403,7 +351,11 @@ footer {
   }
   
   .soc-med-icons {
-    bottom: 6em;
+    margin-bottom: 3em;
     left: 1.5em;
+  }
+  
+  .footer-nav {
+   bottom: 4em;
   }
 }
