@@ -46,7 +46,8 @@ body {
 
 .banner {
   height: 30em;
-  background: url(../images/portrait-2.jpg) no-repeat -250px top;
+  background: url(../images/crop-eyes.jpg) no-repeat 27% top;
+  min-height: 50vh;
   background-size: cover;
   padding: 0;
   overflow: hidden;
@@ -227,6 +228,7 @@ body {
   padding: 5%;
   padding-top: 0;
   text-align: center;
+  color: #808080;
 }
 
 .port-div {
@@ -321,6 +323,11 @@ footer {
   color: #8C8C8C;
 }
 
+.whoami-type h2,
+.email {
+  color: #0B8599;
+}
+
 .portrait-wrapper {
   width: 5em;
   background-image: url(../images/portrait.jpg) center center;
@@ -393,5 +400,10 @@ footer {
     left: 0;
     margin: 2em;
     width: 12em;
+  }
+  
+  .soc-med-icons {
+    bottom: 6em;
+    left: 1.5em;
   }
 }
