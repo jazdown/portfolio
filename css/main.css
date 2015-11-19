@@ -46,19 +46,34 @@ body {
 
 .banner {
   height: 30em;
-  background: url(../images/portrait-2.jpg) no-repeat center top;
+  background: url(../images/portrait-2.jpg) no-repeat -250px top;
   background-size: cover;
   padding: 0;
   overflow: hidden;
+  z-index: 2;
 }
 
 .banner-items {
-  position: absolute;
+  float: right;
   top: 200px;
   width: 100%;
 }
 
+.banner-items p {
+  margin-top: 15em;
+  padding: 1.5em;
+  position: absolute;
+  line-height: 22px;
+  font-weight: lighter;
+  max-width: 30em;
+  color: #FFF;
+  xleft: 20%;
+  background-color: rgba(11, 133, 153, 0.6);
+  xtext-shadow: 1px 1px 4px #0B8599;
+}
+
 .nav {
+  z-index: 1;
   position: absolute;
   padding: 0;
   top: 0;
@@ -103,17 +118,6 @@ body {
   margin-top: 0.75em;
 }
 
-.banner-items p {
-  margin-left: 6em;
-  margin-top: 10em;
-  line-height: 20px;
-  padding-right: 1em;
-  max-width: 35em;
-  bottom: 1em;
-  color: #FFF;
-  text-align: right;
-}
-
 .main {
   z-index: 1;
 }
@@ -124,14 +128,14 @@ body {
 
 .soc-med-icons {
   height: 110px;
-  width: 330px;
-  left: calc(50% - 165px);
+  width: 340px;
+  left: calc(50% - 170px);
   position: relative;
   list-style-type: none;
   z-index: 1;
   display: block;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 5%;
 }
 
 .facebook {
@@ -154,7 +158,6 @@ body {
 .vimeo {
   height: 3em;
   margin-left: 1em;
-  margin-right: 0;
   background-image: url(../images/vimeo-1.svg);
   background-position: center center;
   background-size: contain;
