@@ -67,9 +67,7 @@ body {
   font-weight: lighter;
   max-width: 30em;
   color: #FFF;
-  xleft: 20%;
   background-color: rgba(11, 133, 153, 0.6);
-  xtext-shadow: 1px 1px 4px #0B8599;
 }
 
 .nav {
@@ -231,8 +229,30 @@ body {
   text-align: center;
 }
 
+.port-div {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
 .port-box {
   width: 100%;
+  position: relative;
+  top: 0;
+  left:0;
+}
+
+.port-box-hover {
+  width: 100%;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  opacity: 0;
+  transition: all 300ms linear ease-in-out;
+}
+
+.port-box-hover:hover {
+  opacity: 1;
 }
 
 .port-squares {
