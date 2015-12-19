@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
-</head> 
+</head>  
+<body>
+  
+  <nav class="grid">
+    <ol class="nav">
+      <a href="index.html" class="{% if page.url == '/index.html' %}current{% endif %}"><h1 class="jaz unit">jaz down</h1></a>
+      <li class="unit unit-xs-1-2 unit-m-1-4 unit-l-1-6"><a href="portfolio.html" class="nav-item {% if page.url == '/portfolio.html' %}current{% endif %}">portfolio</a></li>
+      <li class="unit unit-xs-1-2 unit-m-1-4 unit-l-1-6"><a href="whoami.html" class="nav-item {% if page.url == '/whoami.html' %}current{% endif %}">who am i?</a></li>
+    </ol>
+  </nav>
   
 {{content}}
