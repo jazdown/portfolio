@@ -163,6 +163,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.queen-b-link {
+  text-decoration: none;
+  color: #0B8599;
+  font-weight: bolder;
+}
+
 .port-title {
   color: #0B8599;
   text-transform: uppercase;
@@ -271,8 +277,13 @@ footer {
   color: #8C8C8C;
 }
 
-.whoami-type h2,
+.whoami-type h2 {
+  color: #0B8599;
+}
+
 .email {
+  font-weight: bolder;
+  text-decoration: none;
   color: #0B8599;
 }
 
@@ -317,7 +328,7 @@ footer {
   
   .soc-med-icons {
     left: 0;
-    margin-bottom: 6em;
+    padding-bottom: 2em;
   }
   
   .nav-item {
