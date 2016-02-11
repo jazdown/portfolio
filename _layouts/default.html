@@ -10,7 +10,7 @@
   
   <nav class="grid">
     <ol class="nav">
-      <a href="index.html" class="{% if page.url == '/index.html' %}current{% endif %}"><h1 class="jaz unit">jaz down</h1></a>
+      <a href="index.html" class="{% if page.url == '/index.html' %}current{% endif %}"><img src="images/wordmark.svg" class="jaz unit"></a>
       <li class="unit unit-xs-1-2 unit-m-1-4 unit-l-1-6"><a href="portfolio.html" class="nav-item {% if page.url == '/portfolio.html' %}current{% endif %}">portfolio</a></li>
       <li class="unit unit-xs-1-2 unit-m-1-4 unit-l-1-6"><a href="whoami.html" class="nav-item {% if page.url == '/whoami.html' %}current{% endif %}">who am i?</a></li>
     </ol>
@@ -19,18 +19,17 @@
   {{content}}
   
   <footer>
-    <ul class="footer-nav">
-      <a href="portfolio.html" class="footer-nav-item"><li>portfolio</li></a>
-      <a href="whoami.html" class="footer-nav-item"><li>who am i?</li></a>
-    </ul>
-    <div>
-      <div class="soc-med-icons grid">
-        <a href="https://www.facebook.com/jasmine.down.37" class="facebook unit unit-xs-1-4"></a>
-        <a href="https://www.behance.net/jazdown" class="behance unit unit-xs-1-4"></a>
-        <a href="https://vimeo.com/user36330205" class="vimeo unit unit-xs-1-4"></a>
+    <div class="grid">
+        <ul class="footer-nav">
+          <a href="portfolio.html" class="footer-nav-item"><li>portfolio</li></a>
+          <a href="whoami.html" class="footer-nav-item"><li>who am i?</li></a>
+        </ul>
+        <div class="soc-med-icons grid f-b-v">
+          <a href="https://www.facebook.com/jasmine.down.37" class="facebook unit unit-xs-1-4"></a>
+          <a href="https://www.behance.net/jazdown" class="behance unit unit-xs-1-4"></a>
+          <a href="https://vimeo.com/user36330205" class="vimeo unit unit-xs-1-4"></a>
+        </div>
       </div>
-  </div>
   </footer>
-  
-  
-  
+</body>
+</html>

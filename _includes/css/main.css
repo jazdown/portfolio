@@ -85,7 +85,7 @@ body {
 .nav-item {
   text-decoration: none;
   margin-bottom: 1.5em;
-  margin-top: 8em;
+  margin-top: 12em;
   border: 2px solid #0B8599;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -106,14 +106,13 @@ body {
 }
 
 .jaz {
-  width: 8em;
-  padding-top: 0.75em;
-  left: calc( 50% - 4em );
+  width: 10em;
+  padding-top: 1.25em;
+  left: calc( 50% - 5em );
   margin: auto;
   position: absolute;
-  padding-top: 0;
+  padding-top: 0.25em;
   color: #0B8599;
-  font-weight: bolder;
   margin-top: 0.75em;
 }
 
@@ -180,7 +179,7 @@ body {
   left: 2em;
   margin: 1em;
   padding: 5%;
-  padding-top: 0;
+  padding-top: 3em;
   text-align: center;
   color: #808080;
 }
@@ -322,8 +321,13 @@ footer {
 @media only screen and (min-width: 38em){
   
   .jaz {
-    left: -2em;
-    margin-left: 0;
+    left: 1.5em;
+    width: 7em;
+  }
+  
+  .nav-item {
+    margin-bottom: 2em;
+    margin-top: 14em;
   }
   
   .soc-med-icons {
@@ -351,6 +355,11 @@ footer {
     margin-top: 3em;
   }
   
+  .f-b-v {
+    position: relative;
+    bottom: 5em;
+  }
+  
 }
 
 @media only screen and (min-width: 60em){
@@ -368,5 +377,10 @@ footer {
   
   .footer-nav {
    bottom: 4em;
+  }
+  
+  .portfolio-intro {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
